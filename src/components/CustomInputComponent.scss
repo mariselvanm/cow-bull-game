@@ -1,0 +1,22 @@
+.custom-input-component{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    li {
+        display: inline-block;
+        padding: 0% 0% 5% 0;
+        height: 18px;
+        width: 33px;
+        background: transparent;
+        color: #000;
+        margin: 11px 10px 5px 0;
+        border-bottom: 1px solid #7b6464;
+    }
+}
+
+button {
+    background: #fff;
+    color: #000;
+}

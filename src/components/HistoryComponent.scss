@@ -1,0 +1,86 @@
+// .index-header {
+//     top: 4%;
+//     position: relative;
+// }
+
+// .historyComponent {
+//     padding: 0;
+//     height: 400px;
+//     top: 24px;
+//     position: relative;
+//     list-style-type: none;
+//     overflow: auto;
+//     margin: 0;
+
+//     li {
+//         display: inline-block;
+//         position: relative;
+//         margin: 6% 0;
+//         width: 100%;
+//         left: 0;
+
+//         span {
+//             margin-right: 14%;
+
+//             &:first-child {
+//                 margin: 7%;
+//                 color: crimson;
+//                 font-size: 11px;
+//                 font-weight: bold;
+//             }
+//         }
+
+//         .guss {
+//             letter-spacing: 26px;
+//             margin-right: 10%;
+//         }
+//         .cowCount::after {
+    
+//         }
+//         .bullCount {
+    
+//         }
+//     }
+// }
+
+.root {
+    width: 90%;
+    margin-left: 5%; 
+    margin-top: 20px;
+    max-height: 350px;
+    overflow: auto;
+}
+
+.table {
+    width: 500px;
+
+    .guss {
+        letter-spacing: 26px;
+        margin-right: 10%;
+    }
+
+    td {
+        width: 33%;
+        letter-spacing: 7px;
+        position: relative;
+
+        &.cowCount::after, 
+        &.bullCount::after {
+            content: ' ';
+            background-size: 24px 24px;
+            width: 24px;
+            background-repeat: no-repeat;
+            height: 24px;
+            position: absolute;
+        }
+
+        &.cowCount::after {
+            background-image: url('../assests/cow.png');
+        }
+    
+        &.bullCount::after {
+            background-image: url('../assests/bull.png');
+        }
+    }
+
+}
