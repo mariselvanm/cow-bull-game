@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[Demo for the Game](http://mariselvanm.github.io/cow-bull-game)
+
 ## Available Scripts
 
 In the project directory, you can run:
